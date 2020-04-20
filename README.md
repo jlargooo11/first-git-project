@@ -10,4 +10,11 @@ git pull origin master // to retrieve github repo changes
 git remote set-url origin github url //to change origin master url
 git remote add origin url // to set new repository as origin
 
+to initialize git and push it to github
+- git init
+- create a new github repo
+- set the remote origin
+- git remote add origin url
+- git push origin master
+
 I am confused!
