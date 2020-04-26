@@ -13,3 +13,33 @@ To initialize git and push it to github
 - set the remote origin
 - git remote add origin url
 - git push origin master
+
+GIT COMMANDS
+git status
+git add .
+git add -a // will ask for a commit message
+git add --a
+git log
+git log --oneline
+git diff
+git diff --staged
+git diff --cached
+git diff --color-words
+git diff l67364..l6524se
+git diff l67364..HEAD
+git diff l67364..l6524se --color-words
+git commit -m "message over here"
+git commit -am "shortcut to add and commit"
+git show 48982 
+git checkout -- filename // to restore previous version
+git restore filename // to discard changes , same as above
+git reset HEAD filename //to unstage 
+git commit --amend -m "to amend previous commit"
+git rm --cached filenamed //to ignore files previoudly tracked
+git ls-tree //list of files tracked
+mkdir //make directory
+touch //create a file
+touch folderName/.gitkeep //create a file inside the dir so git will start tracking
+pwd //print working directory
+
+#--END--#
